@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/menu_Pet"
+        android:title="Pets"
+        android:icon="@drawable/ic_pet" />
+    <item
+        android:id="@+id/menu_Vet"
+        android:title="Vets"
+        android:icon="@drawable/ic_vet" />
+    <item
+        android:id="@+id/menu_Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile" />
+</menu>

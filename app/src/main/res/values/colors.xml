@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <!-- General Colors -->
+    <color name="White">#ffffff</color>
+    <color name="black">#000000</color>
+    <!-- Blue Color (bc) -->
+    <color name="bc_Primary">#1565c0</color>
+    <color name="bc_Light">#5e92f3</color>
+    <color name="bc_Dark">#003c8f</color>
+    <!-- Blue Grey Color (bgc) -->
+    <color name="bgc_Primary">#37474f</color>
+    <color name="bgc_Light">#62727b</color>
+    <color name="bgc_Dark">#102027</color>
+    <!-- Grey Color (gc) -->
+    <color name="gc_Primary">#afbdc4</color>
+    <color name="gc_Light">#e1eff7</color>
+    <color name="gc_Dark">#808d94</color>
+    <!-- Amber Color (ac) -->
+    <color name="ac_Primary">#ffca28</color>
+    <color name="ac_Light">#fffd61</color>
+    <color name="ac_Dark">#c79a00</color>
+    <!-- Green Color (grc) -->
+    <color name="grc_Primary">#5ae3b1</color>
+    <color name="grc_Light">#91ffe3</color>
+    <color name="grc_Dark">#0cb081</color>
+</resources>

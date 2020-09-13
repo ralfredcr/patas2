@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mainB_SignIn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textv_welcomeintro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/bgc_button_amber"
+        android:text="Login"
+        android:textColor="@color/White"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textv_welcomeintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/minionpro_bold"
+        android:text="Bienvenido!"
+        android:textColor="@color/bgc_Primary"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textv_welcomeintro"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/minionpro_bold"
+        android:text="Que gusto verte de nuevo!"
+        android:textColor="@color/bgc_Primary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/nameApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/friendly_regular"
+        android:text="@string/app_name"
+        android:textColor="@color/bgc_Dark"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="@font/minionpro_regular"
+        android:text="¿No tienes una cuenta?"
+        android:textColor="@color/gc_Dark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/mainTV_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/minionpro_bold"
+        android:text="Registrate"
+        android:textColor="@color/bc_Primary"
+        android:textSize="22dp" />
+</RelativeLayout>
